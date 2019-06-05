@@ -1,0 +1,111 @@
+body
+{
+background-image:url(images/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment : fixed;
+background-color:rgba(60, 60, 60,);
+background-position: center;
+color:white;
+}
+
+h1
+{
+padding: 0px 0 50px 0;
+}
+
+header
+{
+color:white;
+margin: 0 0 80px 0;
+}
+
+header nav ul
+{
+padding: 50px 0px 0 0;
+}
+
+li a
+{
+color:white;
+text-decoration: none;  /*ne fonctionne pas*/
+}
+
+li a:hover
+{
+color:white;
+font-weight: bold;
+}
+
+.imagecontainer img /*marge entre les images*/
+{
+margin: 1.5px;
+}
+
+.imagecontainer /*englobe toute les images*/
+{
+display: flex;
+flex-direction: column;
+}
+
+#firstbox /*engloble les 3 images de la premiere ligne*/
+{
+display: flex;
+justify-content: center;
+}
+
+#ligne1 /*1ere image 1ere ligne*/
+{
+display: flex;
+justify-content: center;
+}
+
+#ligne1col /*Les 2 images en colonnes*/
+{
+display: flex;
+flex-direction: column;
+justify-content: center; 
+}
+
+#ligne2 /*2eme ligne*/
+{
+display: flex;
+justify-content: center;
+}
+
+#ligne3 /*3eme ligne*/
+{
+display: flex;
+justify-content: center;
+}
+
+footer
+{
+margin: auto;
+width:1400px;
+position:center;
+color:white;
+}
+
+footer hr
+{
+margin: 50px 0 50px 0;
+}
+
+
+.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
+{
+text-align: center;
+}
+
+i /*les icônes*/
+{
+color: white;
+padding: 0 15px 0 15px;
+}
+
+hr
+{
+border-color: black;
+width :1400px;
+}

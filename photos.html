@@ -3,49 +3,68 @@
     <head>
         <meta charset="utf-8">
         
-        <link rel="stylesheet" type="text/css"  href="styles.css" >
+        <link rel="stylesheet" type="text/css"  href="photos.css" >
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <title>Obsidian</title>
     </head>
-    <body>
+    <body class="body1">
         <header>
             <nav>
-                <ul>
-                    <li><a href="homepage.html">HOME</a></li>
-                    <li><a href="bio.html">BIO</a></li>
-                    <li><a href="photos.html">PHOTOS</a></li>
-                    <li><a href="music.html">MUSIC</a></li>
-                    <li><a href="videos.html">VIDEOS</a></li>   
-                    <li><a href="news.html">NEWS</a></li>
-                    <li><a href="tour.html">TOUR</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link color" href="IN">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bio.html">BIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photos.html">PHOTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">MUSIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="video.html">VIDEOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tour.html">TOUR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
                 </ul>
             </nav>
-            <div>
-                <h1>PROJET AUDIO</h1>
-                <h2>PHOTOS</h2>
+            <div class="titre">
+                <h1 class="d-flex justify-content-center display-2">PROJET AUDIO</h1>
+                <h2 class="d-flex justify-content-center">PHOTOS</h2>
             </div>
             <hr>
         </header>
-            <div id="imagecontainer">
-                <div id="ligne1">
-                    <img src="images/gallery-09.jpg" alt="gallery-09">
-                </div>
-                <div id="ligne1col">
-                    <img src="images/gallery-03.jpg" alt="gallery-03">
-                    <img src="images/gallery-05.jpg" alt="gallery-05">
+            <div class="imagecontainer">
+                <div id="firstbox">
+                    <div id="ligne1">
+                        <a href="images/gallery-09.jpg" target="_blank"><img src="images/gallery-09.jpg" alt="gallery-09" width="730px" height="500px"></a>
+                    </div>
+                    <div id="ligne1col">
+                        <a href="images/gallery-03.jpg" target="_blank"><img src="images/gallery-03.jpg" alt="gallery-03" width="360px" height="248px"></a>
+                        <a href="images/gallery-05.jpg" target="_blank"><img src="images/gallery-05.jpg" alt="gallery-05" width="360px" height="248px">
+                    </div>
                 </div>
                 <div id="ligne2">
-                    <img src="images/gallery-08.jpg" alt="gallery-08">
-                    <img src="images/gallery-07.jpg" alt="gallery-07">
-                    <img src="images/gallery-06.jpg" alt="gallery-06">
+                    <a href="images/gallery-08.jpg" target="_blank"><img src="images/gallery-08.jpg" alt="gallery-08" width="445px" height="300">
+                    <a href="images/gallery-07.jpg" target="_blank"><img src="images/gallery-07.jpg" alt="gallery-07" width="445px" height="300px"></a>
+                    <a href="images/gallery-06.jpg" target="_blank"><img src="images/gallery-06.jpg" alt="gallery-06" width="200" height="300px"></a>
                 </div>
                 <div id="ligne3">
-                    <img src="images/gallery-03.jpg" alt="gallery-03">
-                    <img src="images/gallery-01.jpg" alt="gallery-01">
-                    <img src="images/gallery-02.jpg" alt="gallery-02">
-                    <img src="images/gallery-10.jpg" alt="gallery-10">
+                    <a href="images/gallery-03.jpg" target="_blank"><img src="images/gallery-03.jpg" alt="gallery-03" width="325px" height="210px"></a>
+                    <a href="images/gallery-01.jpg" target="_blank"><img src="images/gallery-01.jpg" alt="gallery-01" width="325px" height="210px"></a>
+                    <a href="images/gallery-02.jpg" target="_blank"><img src="images/gallery-02.jpg" alt="gallery-02" width="142px" height="210px"></a>
+                    <a href="images/gallery-10.jpg" target="_blank"><img src="images/gallery-10.jpg" alt="gallery-10" width="300px" height="210px"></a>
                 </div>
             </div>
         <footer>
@@ -87,7 +106,7 @@
                         </p>
                       <p><span id="obsidian">OBSIDIAN MUSIC THEME BY AUDIOTHEME</span></p>
                 </div>
-          </footer>
+          </footer>  
         </div>
     </body>
 </html>

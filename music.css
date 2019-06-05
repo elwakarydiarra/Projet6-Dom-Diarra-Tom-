@@ -1,0 +1,121 @@
+body
+{
+background-image:url(images/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-color:rgba(60, 60, 60,);
+color:white;
+}
+
+h1
+{
+padding: 0px 0 50px 0;
+}
+
+header
+{
+color:white;
+margin: 0 0 80px 0;
+}
+
+
+
+header nav ul
+{
+padding: 50px 0px 0 0;
+}
+
+li a
+{
+color:white;
+text-decoration: none;  /*ne fonctionne pas*/
+}
+
+li a:hover
+{
+color:white;
+font-weight: bold;
+}
+
+.titre
+{
+margin:80px 0px 80px 0px;
+}
+
+.bcontainer /* body container */
+{
+display: flex;
+margin:auto;
+width : 1400px;
+color:white;
+}
+
+#partgauche img /* div de gauche avec image et liste */
+{
+margin: 0 25px 30px 0;
+}
+
+#partgauche li
+{
+
+margin: 20px 0 20px 25%;
+}
+
+#partdroite h3  /*div de droite avec h3 p et liste chiffré*/
+{
+margin: 0 0px 15px 20px;
+}
+
+#release
+{
+margin: 0 0 0px 20px;
+
+}
+
+.deco /*il s'agit du -:-- apres les chansons; */
+{
+text-align: right;
+margin:-30px 0 0px 0;
+}
+
+footer
+{
+margin: auto;
+width:1400px;
+position:center;
+color:white;
+}
+
+footer hr
+{
+margin: 50px 0 50px 0;
+}
+
+.row
+{
+
+}
+
+.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
+{
+text-align: center;
+}
+
+i /*les icônes*/
+{
+color: white;
+padding: 0 15px 0 15px;
+}
+
+ol hr  /*taille du hr dans les liste chiffrés*/
+{
+width: 1030px;
+}
+
+hr
+{
+border-color: black;
+width :1400px;
+}
+
+

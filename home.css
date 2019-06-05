@@ -1,0 +1,143 @@
+body
+{
+background-image:url(images/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment : fixed;
+background-color:rgba(60, 60, 60,);
+background-position: center;
+color:white;
+}
+
+h1
+{
+padding: 0px 0 50px 0;
+}
+
+header
+{
+color:white;
+margin: 0 0 80px 0;
+}
+
+header nav ul
+{
+padding: 50px 0px 0 0;
+}
+
+li a
+{
+color:white;
+text-decoration: none;  
+}
+
+li a:hover
+{
+color:white;
+font-weight: bold;
+}
+
+.bcontainer /*bodycontainer*/
+{
+margin:0px 250px 0 250px;
+color: white; /*Si je ne le met pas tout le body central est noir*/
+}
+
+.bcontainer a
+{
+color:white;
+}
+
+.bcontainer a:hover
+{
+color:white;
+font-weight: bold;
+text-decoration: none;
+}
+
+#lienvideo /*Il s'agit du "All Video" à droite de VIDEOS*/
+{
+text-align: right;
+margin: -25px 0 0 0;
+}
+
+#lienvideo a
+{
+color: black;
+}
+
+
+.video nav
+{
+display: flex;
+justify-content: space-around;
+border-top: solid grey;
+border-bottom: solid grey;
+
+}
+
+#video1
+{
+
+}
+
+#video2
+{
+
+border-top: none;
+border-left: solid grey;
+border-right: solid grey;
+}
+
+#video3
+{
+
+}
+
+.tableau ul li
+{
+display: flex;
+
+}
+
+.date
+{
+font-style: bold;
+}
+
+
+#gigs
+{
+text-align: center;
+}
+
+
+footer
+{
+margin: auto;
+width:1400px;
+position:center;
+color:white;
+}
+
+footer hr
+{
+margin: 50px 0 50px 0;
+}
+
+.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
+{
+text-align: center;
+}
+
+i /*les icônes*/
+{
+color: white;
+padding: 0 15px 0 15px;
+}
+
+hr
+{
+border-color: black;
+width :1400px;
+}
