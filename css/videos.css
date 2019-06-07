@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body{
+    background-image:url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgba(60, 60, 60,);
+    color:white;
+    background-attachment: fixed;
+    background-position: center ;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    color:white;
+
+}
+
+li a{
+    color:white;
+}
+
+li a:hover{
+    color:white;
+    font-weight: bold;
+}
+ul li {
+    display: inline-flex;
+    padding: 80px 0px 0 0;
+}
+ul li a {
+    padding:15px;
+}
+ul {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    padding: 0px 0 50px 0;
+
+}
+h2 {
+    text-align: center;
+    margin:40px 0px 40px 0px;
+}
+h3 {
+    color: white;
+}
+
+h5{
+    font-weight:bold;
+    color: white;
+}
+header{
+    background-color: black;
+    opacity: 0.7;
+    padding-bottom: 20px;
+    height: 390;
+
+}
+/*
+.reseau_sociaux{
+    text-align: center;
+    padding: 15px;
+    margin-right: 180px;
+    padding-top: -10px;
+}
+*/
+i {
+    color:white;
+    padding: 15px;
+}
+footer {
+   
+    height: 852px;
+    background-color: black;
+    padding-top:150px;
+  
+    
+    
+}
+
+.marge{
+    margin-left:360px;
+    padding-bottom: 50px;
+} 
+
+.marge1{
+     margin-left: 10px;
+} 
+.marge2{
+    margin-right: 300px;
+}
+hr {
+    border-color: white;
+    background-color: white;
+    width: 1400px;
+
+
+}
+
+.image img{
+   width: 345px;
+     height: 189px;
+     margin: 10px;
+     margin-left: 200px;
+
+    
+     
+}
+p {
+    color:white;
+
+}
+
+.titre{
+    padding-top: 80px;
+}/*
+.col {
+    flex-grow: 1;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.the{
+    text-align: left;
+    
+
+}
+.about{
+    
+    padding: 155px;
+    
+}
+.theme{
+ 
+}
+.recent {
+   padding-right: 270px;
+}*/
+
+.image1{
+    display:flex;
+    margin-left: 50px;
+
+}
+.image2{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 50px;
+
+}
+#sous-titre{
+    margin-left: 210px;
+
+}
+ 
+
+h5{
+    font-weight:bold;
+}
+
+
+
+.textnews{
+    color:grey;
+}
+
+.textnews1{
+    color:grey;
+    font-weight: bold;
+}
