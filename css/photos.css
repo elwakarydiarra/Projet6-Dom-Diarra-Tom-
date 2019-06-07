@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
 body
 {
-background-image:url(images/background.jpg);
+background-image:url(../images/background.jpg);
 background-repeat: no-repeat;
 background-size:cover;
 background-attachment : fixed;
 background-color:rgba(60, 60, 60,);
 background-position: center;
 color:white;
+font-family:'Open Sans', sans-serif;
+}
+
+.bg
+{
+background-color: rgba(0, 0, 0, 0.5)
 }
 
 h1
@@ -87,6 +95,15 @@ position:center;
 color:white;
 }
 
+.textnews{
+    color:grey;
+}
+
+.textnews1{
+    color:grey;
+    font-weight: bold;
+}
+
 footer hr
 {
 margin: 50px 0 50px 0;
@@ -96,6 +113,7 @@ margin: 50px 0 50px 0;
 .reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
 {
 text-align: center;
+padding: 0 0 20px 0;
 }
 
 i /*les icônes*/

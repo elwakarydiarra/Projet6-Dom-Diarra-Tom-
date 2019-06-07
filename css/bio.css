@@ -20,21 +20,27 @@ hr {
 .photobio{
 
 }*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
 body{
-    background-image:url(images/background.jpg);
+    background-image:url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-color:rgba(60, 60, 60,);
     color:white;
     background-attachment: fixed;
     background-position: center center;
-
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 header{
     color:white;
-
+    margin: 0 0 0px 0;
+    background-color: black;
+    opacity: 0.7;
+    padding-bottom: 30px;
 }
 
 li a{
@@ -59,13 +65,9 @@ ul {
 }
 
 
-
-{
-    opacity: 0.5;
-}
-
 footer{
-    
+    margin: auto;
+    padding: 30px 0 0px 0;
     width:1400px;
     position:center;
     color:white;
@@ -74,33 +76,53 @@ footer{
 
 hr{
     border-color: pink;
+    background-color: white;
     width :1250px;
-    border-width: 5px;
-    color: white;
-
-
-
+    border-width: 10px;
 }
+
+footer hr
+{
+background-color: white;
+width: 1400px;
+}
+
 .paragraphe {
     
     color: white;
     margin-right: 550px;
     margin-left: 470px;
+    padding-top: 50px;
     
 
 }
 
 h1 {
     text-align: center;
-
+    padding: 0px 0 50px 0;
 }
 h2 {
     text-align: center;
+    margin:40px 0px 40px 0px;
 }
+
+h5{
+    font-weight:bold;
+}
+
+.textnews{
+    color:grey;
+}
+
+.textnews1{
+    color:grey;
+    font-weight: bold;
+}
+
 .photobio {
     margin-left: 500px;
-
 }
+
 i {
     color: white;
     padding: 10px;
@@ -113,17 +135,11 @@ i {
     max-width : 2000px;
     color:white;
     margin:0;
-    
+
 }
-.reseau_sociaux{
-    text-align: center;
-    margin-left: 600px;
+
+.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
+{
+padding: 0 0 20px 0;
 }
-header{
-    background-color: black;
-    opacity: 0.7;
-    padding-bottom: 20px;
-}
-.row{
-    margin-left: 200px;
-}
+

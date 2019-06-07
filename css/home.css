@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body
+{
+background-image:url(../images/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment : fixed;
+background-color:rgba(60, 60, 60,);
+background-position: center;
+color:white;
+font-family: 'Open Sans', sans-serif;
+}
+
+.bg
+{
+background-color: rgba(0, 0, 0, 0.5)
+}
+
+h1
+{
+padding: 0px 0 50px 0;
+}
+
+h5{
+    font-weight:bold;
+}
+
+h2{
+    margin:40px 0px 40px 0px;
+}
+
+.textnews{
+    color:grey;
+}
+
+.textnews1{
+    color:grey;
+    font-weight: bold;
+}
+header
+{
+color:white;
+margin: 0 0 80px 0;
+}
+
+header nav ul
+{
+padding: 50px 0px 0 0;
+}
+
+li a
+{
+color:white;
+text-decoration: none;  
+}
+
+li a:hover
+{
+color:white;
+font-weight: bold;
+}
+
+.bcontainer /*bodycontainer regroupant l'après header jusqu'au début footer*/
+{
+margin:0px 250px 0 250px;
+color: white; /*Si je ne le met pas tout le body central garde sa couleur de police de base*/
+}
+
+.bcontainer a
+{
+color:white;
+}
+
+.bcontainer a:hover
+{
+color:white;
+font-weight: bold;
+text-decoration: none;
+}
+
+#lienvideo /*Il s'agit du "All Video" à droite de VIDEOS*/
+{
+text-align: right;
+margin: -25px 0 0 0;
+}
+
+#lienvideo a
+{
+color: black;
+}
+
+
+.video nav /*tableau pour les vidéos*/
+{
+display: flex;
+justify-content: space-around;
+border-top: solid grey 1px;
+border-bottom: solid grey 1px;
+margin: 10px 0 30px 0;
+
+}
+
+.video nav li
+{
+list-style: none;
+}
+
+#video1
+{
+margin: 2% 0 0 0;
+padding: 0 0px 0 0;
+}
+
+#video2
+{
+padding: 2% 80px 0 80px;
+border-left: solid grey 1px;
+}
+
+#video3
+{
+padding: 2% 0 0 80px;
+border-left: solid grey 1px;
+}
+
+.tableau hr  /*le tableau des "UPCOMING GIGS*/
+{
+width: 1350px;
+}
+
+.tableau ul li
+{
+display: flex;
+
+}
+
+.mois  /*.mois .date .artist permettent le placement de tout les éléments du tableau*/
+{
+margin: 0px 15px 0 0;
+}
+
+.date
+{
+margin: 0 70px 0 0;
+}
+/*toute les id artiste c'était la merde*/
+#artist1
+{
+padding: 0 0 0 510px;
+}
+
+#artist2
+{
+padding: 0 0 0 520px;
+}
+
+#artist3
+{
+padding: 0 0 0 500px;
+}
+
+#artist4
+{
+padding: 0 0 0 490px;
+}
+
+#artist5
+{
+padding: 0 0 0 440px;
+}
+
+
+
+		/**/
+#gigs		/*le lien "VIEW ALL GIGS"*/
+{
+text-align: center;
+}
+
+
+footer
+{
+margin: auto;
+width:1400px;
+position:center;
+color:white;
+}
+
+footer hr
+{
+margin: 100px 0 50px 0;
+}
+
+.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
+{
+text-align: center;
+padding: 0 0 20px 0;
+}
+
+i /*les icônes*/
+{
+color: white;
+padding: 0 15px 0 15px;
+}
+
+hr
+{
+border-color: black;
+width :1400px;
+}

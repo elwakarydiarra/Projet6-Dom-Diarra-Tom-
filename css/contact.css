@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+
+
+h1
+{
+padding: 0px 0 50px 0;
+}
+
+h5{
+    font-weight:bold;
+}
+
+h2{
+    margin:40px 0px 40px 0px;
+}
+
+body{
+    background-image:url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color:white;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.bg
+{
+background-color: rgba(0, 0, 0, 0.5)
+}
+
+.news{
+    background-attachment: fixed;
+}
+
+.search{
+    margin:33px 0px 40px 0px;
+}
+
+.textnews{
+    color:grey;
+}
+
+.textnews1{
+    color:grey;
+    font-weight: bold;
+}
+
+header{
+    color:white;
+    margin: 0 0 80px 0; 
+}
+
+ul
+{
+padding: 50px 0px 0 0;
+}
+
+li a{
+    color:white;
+}
+
+li a:hover{
+    color:white;
+    font-weight: bold;
+}
+
+.titre{
+    margin:80px 0px 80px 0px;
+}
+
+.container{
+    margin:auto;
+    width : 1400px;
+    color:white;
+}
+
+.phrase{
+    margin:40px;
+}
+
+.phrase1{
+    font-size:18px;
+}
+
+.texte{
+    color:black;
+    font-weight:bold;
+}
+
+.ttr{
+    font-size:10px;
+}
+
+.fond{
+    opacity: 0.5;
+}
+
+footer{
+    margin: auto;
+    width:1400px;
+    position:center;
+    color:white;
+}
+
+i{
+    color:white;
+    margin-left:30px;
+}
+
+hr{
+    border-color: black;
+    width :1250px;
+    border-width: 5px;
+}
+
+.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
+{
+text-align: center;
+padding: 0 0 20px 0;
+}
