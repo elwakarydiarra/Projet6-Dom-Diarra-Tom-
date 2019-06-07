@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 
-
-
 h1
 {
 padding: 0px 0 50px 0;
@@ -21,13 +19,8 @@ body{
     background-position: center;
     background-size:cover;
     color:white;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
-}
-
-.bg
-{
-background-color: rgba(0, 0, 0, 0.5)
 }
 
 .news{
@@ -54,7 +47,7 @@ header{
 
 ul
 {
-padding: 50px 0px 0 0;
+padding: 80px 0px 0 0;
 }
 
 li a{
@@ -113,10 +106,4 @@ hr{
     border-color: black;
     width :1250px;
     border-width: 5px;
-}
-
-.reseau_sociaux  /*la div regroupant ce qui a en bas du hr footer*/
-{
-text-align: center;
-padding: 0 0 20px 0;
 }
